@@ -95,7 +95,7 @@ scp C:\Users\admin\.ssh\key.pub vol@volgraft.ru:/home/vol/.ssh/key.pub
 
 # подключится к удаленному серверу по ssh
 
-# экспорт публичного ключа в uthorized_keys
+# экспорт публичного ключа в authorized_keys
 cat ~/.ssh/key.pub >> ~/.ssh/authorized_keys
 
 # отредактировать sshd_config
